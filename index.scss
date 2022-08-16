@@ -1,5 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/lighthouse");
 
-body {
-   font-family: "Lighthouse", sans-serif;
-}
+@import "./assets/components/classes";
+@import "./assets/components/zero";
+@import "./assets/components/reviews";
