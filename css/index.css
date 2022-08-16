@@ -71,6 +71,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+.products__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.products__title {
+  font-weight: 400;
+  font-size: 50px;
+  height: 50px;
+  line-height: 74.9%;
+  text-align: center;
+  color: #031412;
+}
 body {
   font-family: "Lighthouse", sans-serif;
 }/*# sourceMappingURL=index.css.map */
