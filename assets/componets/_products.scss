@@ -5,6 +5,7 @@
         flex-direction: column;
 
     }
+
     &__title {
         font-weight: 400;
         font-size: 50px;
@@ -13,7 +14,14 @@
         text-align: center;
         color: #031412;
     }
+
     &__description {
-        
+        font-family: 'Mont';
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 96.4%;
+        text-align: center;
+
+        color: #FFFFFF;
     }
 }
