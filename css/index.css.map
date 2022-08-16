@@ -1,5 +1,1 @@
-
-{"version":3,"sources":[],"names":[],"mappings":"","file":"index.css"}
-
 {"version":3,"sources":["../index.scss","../assets/fonts/_fonts.scss","index.css"],"names":[],"mappings":"AAAQ,uDAAA;ACAR;EACI,mBAAA;EACA,+CAAA;EACA,gBAAA;ACEJ;ADAA;EACI,mBAAA;EACA,+CAAA;EACA,gBAAA;ACEJ;ADAA;EACI,mBAAA;EACA,0CAAA;EACA,gBAAA;ACEJ;ADAA;EACI,mBAAA;EACA,0CAAA;EACA,gBAAA;ACEJ;AFlBA;EACG,qCAAA;AEoBH","file":"index.css"}
->>>>>>> 114c50e2860f130bfffb1f119564a0880317b201
