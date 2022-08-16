@@ -1,4 +1,27 @@
 @import url("http://fonts.cdnfonts.com/css/lighthouse");
+<<<<<<< HEAD
+=======
+@font-face {
+  font-family: "Mont";
+  src: url(/assets/fonts/Mont-ExtraLightDEMO.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(/assets/fonts/mont_extralightdemo.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(/assets/fonts/Mont-HeavyDEMO.otf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(/assets/fonts/mont_heavydemo.ttf);
+  font-weight: 900;
+}
+>>>>>>> 114c50e2860f130bfffb1f119564a0880317b201
 body {
   font-family: "Lighthouse", sans-serif;
 }/*# sourceMappingURL=index.css.map */
