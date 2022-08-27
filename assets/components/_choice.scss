@@ -1,0 +1,61 @@
+.choice {
+    background: linear-gradient(285.45deg, rgba(11, 63, 55, 0.03) 38.27%, rgba(203, 141, 98, 0.03) 141.81%);
+    &__title {
+        @include font ('lighthouse', 400, 50px, $black);
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 49px;
+        padding-top: 70px;
+    }
+    &__img{
+        width: 60px;
+        height: 60px;
+    }
+    &__sector{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__box{
+        width: 24%;
+        margin-bottom: 34px;
+    }
+    &__icon{
+        background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
+        padding: 9px 9px 9px 9px;
+        width: 60px;
+        height: 60px;
+    }
+    &__suptitle{
+        @include font ('lighthouse', 800, 20px, $black);
+        margin-top: 24px;
+    }
+    &__description{
+        @include font ('lighthouse', 400, 14px, $black);
+        margin: 15px 0px 15px 0px;
+    }
+    &__link{
+        @include font ('lighthouse', 800, 14px, $black);
+        background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .choice{
+        &__box{
+            width: 46%;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .choice{
+        &__box{
+            width: 44%;
+        }
+    }
+}

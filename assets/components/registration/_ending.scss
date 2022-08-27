@@ -1,0 +1,10 @@
+.ending{
+    background: linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
+    text-align: center;
+    margin-top: 160px;
+    padding: 40px 0px ;
+    &__law{
+        @include font ('Mont', 400, 14px, $gray);
+        margin-top: 24px;
+    }
+}

@@ -1,7 +1,21 @@
 @import url("http://fonts.cdnfonts.com/css/lighthouse");
 @import "./assets/fonts/fonts";
+
 body {
    font-family: "Lighthouse", sans-serif;
 }
 
+@import "./assets/helpers/variables";
+@import "./assets/helpers/mixin";
 
+@import "./assets/components/zero";
+@import "./assets/components/classes";
+@import "./assets/components/choice";
+
+@import "./assets/components/thanks/thanks";
+
+@import "./assets/components/authorization/authorization";
+
+@import "./assets/components/registration/beginning";
+@import "./assets/components/registration/registration";
+@import "./assets/components/registration/ending";

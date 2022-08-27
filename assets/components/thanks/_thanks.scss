@@ -1,0 +1,51 @@
+.thanks{
+    margin-top: 70px;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title{
+        @include font ('lighthouse', 400, 50px, $black);
+        text-transform: uppercase;
+        margin-top: 18px;
+    }
+    &__description{
+        @include font ('Mont', 500, 27px, $black);
+        margin-top: 37px;
+        margin-bottom: 37px;
+        max-width: 346px;
+        text-align: center;
+    }
+    &__link{
+        @include font ('Mont', 800, 18px, $white);
+        border: 1px solid #5E3928;
+        padding: 17px 185px 16px 184px;
+        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        border: 1px solid #fff;
+    }
+    &__link:hover{
+        background: #fff;
+        color: #5E3928;
+        border: 1px solid #5E3928;
+    }
+}
+
+@media screen  and (max-width: 478px) {
+    .thanks{
+        &__title{
+            text-align: center;
+        }
+        &__link{
+            padding: 17px 90px 16px 90px;
+        }
+    }
+}
+
+@media screen  and (max-width: 360px) {
+    .thanks{
+        &__img{
+            max-width: 100%;
+        }
+    }
+}

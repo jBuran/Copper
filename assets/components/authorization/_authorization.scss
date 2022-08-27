@@ -1,0 +1,111 @@
+.authorization{
+    &__content{
+        display: flex;
+        justify-content: center;
+    }
+    &__case{
+        margin-top: 50px;
+    }
+    &__text{
+        @include font ('Mont', 800, 18px, $gray);
+        border: 1px solid #A1A1A1;
+        padding: 17px 77px 16px 77px;
+    }
+    &__box{
+        background: #FFFFFF;
+        box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+        padding: 42px 35px 0px 36px;
+    }
+    &__title{
+        @include font ('lighthouse', 400, 35px, $black);
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    &__input{
+        &--email{
+            margin-bottom: 30px;
+            @include font ('Mont', 400, 18px, $gray);
+            display: flex;
+            padding: 17px 115px 16px 20px;
+            border: 1px solid #A1A1A1;
+        }
+        &--password{
+            margin-bottom: 30px;
+            @include font ('Mont', 400, 18px, $gray);
+            display: flex;
+            padding: 17px 115px 16px 20px;
+            border: 1px solid #A1A1A1;
+        }
+    }
+    &__forget{
+        @include font ('Mont', 500, 27px, $black);
+        margin-top: 24px;
+        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    &__link{
+        @include font ('Mont', 500, 27px, $white);
+        padding: 16px 146px;
+        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        margin-top: 27px;
+        margin-bottom: 31px;
+    }
+    &__account{
+        @include font ('Mont', 500, 18px, $white);
+    }
+    &__registration{
+        @include font ('Mont', 800, 18px, $white);
+    }
+    &__btn{
+        background: linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
+        padding: 24px 35px 23px 36px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .authorization{
+        &__box{
+            padding: 42px 40px 0px 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .authorization{
+        &__content{
+            max-width: 100%;
+        }
+        &__case{
+            display: flex;
+            justify-content: center;
+        }
+        &__box{
+            padding: 42px 20px 0px 20px;
+        }
+        &__input{
+            &--email{
+                padding: 17px 50px 16px 20px;
+            }
+            &--password{
+                padding: 17px 50px 16px 20px;
+            }
+        }
+        &__btn{
+            padding: 24px 10px 23px 10px;
+            width: 100%;
+        }
+        &__link{
+            padding: 16px 100px;
+        }
+    }
+}
